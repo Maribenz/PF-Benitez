@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    margin-right: 0px;
+}
+.footer__contenedor__redesSociales {
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+        a {
+            margin: 0rem 3rem;
+                img {
+                    width: 30px;
+                    height: 30px;
+                }
+        }
+}

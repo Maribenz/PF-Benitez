@@ -1,0 +1,78 @@
+@use './variables';
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    font-size: variables.$tamanioDeFuenteGeneral;
+} 
+.container-fluid {
+    background-color: variables.$negro;
+}
+
+/* Títulos */
+h1 {
+    font-size: variables.$tamanioDeFuenteH1;
+    color: #fff;
+}
+h2 {
+    font-size: variables.$tamanioDeFuenteH2;
+    color: #fff;
+}
+h3 {
+    font-size: variables.$tamanioDeFuenteH3;
+    color: #fff;
+}
+h4 {
+    color:#fff;
+}
+p {
+    font-size: variables.$tamanioDeFuenteP;
+    color: #fff;
+}
+.span__personalizado {
+    font-size: 200px;
+}
+/* Imagenes */
+img {
+    width: 100%;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Logo Título */
+.navbar__brand__personalizada {
+    font-size: variables.$tamanioDeFuenteTituloLogo;
+        img {
+            width: 60px; 
+            height: 60px;
+            margin-left: 1rem;
+        }
+}
+
+/* Botón contacto */
+.contenedor__boton__contacto {
+    font-size: 2.5rem;
+    padding: 1rem 9rem;
+    width: auto;
+    height: auto;
+}
+
+/* Información al comienzo de las secciones */
+.contenedor__introduccion {
+    width: 50%;
+    text-align: center;
+}
+
+/* Contenedor flex, columna, centrado y contenido justify */
+
+.contenedorAlineado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

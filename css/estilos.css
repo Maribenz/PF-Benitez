@@ -1,0 +1,676 @@
+@charset "UTF-8";
+/* Configuración General */
+/* Tamaños de fuente */
+/* Tamaño de fuente pantallas md */
+/* Tamaño de fuente pantallas sm */
+/* Colores */
+/* Valores de BreakPoints */
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container-fluid {
+  background-color: #021013;
+}
+
+/* Títulos */
+h1 {
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+h2 {
+  font-size: 2.7rem;
+  color: #fff;
+}
+
+h3 {
+  font-size: 2.3rem;
+  color: #fff;
+}
+
+h4 {
+  color: #fff;
+}
+
+p {
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.span__personalizado {
+  font-size: 200px;
+}
+
+/* Imagenes */
+img {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Logo Título */
+.navbar__brand__personalizada {
+  font-size: 2.5rem;
+}
+.navbar__brand__personalizada img {
+  width: 60px;
+  height: 60px;
+  margin-left: 1rem;
+}
+
+/* Botón contacto */
+.contenedor__boton__contacto {
+  font-size: 2.5rem;
+  padding: 1rem 9rem;
+  width: auto;
+  height: auto;
+}
+
+/* Información al comienzo de las secciones */
+.contenedor__introduccion {
+  width: 50%;
+  text-align: center;
+}
+
+/* Contenedor flex, columna, centrado y contenido justify */
+.contenedorAlineado, .contenedor__galeria, .contenedor__galeria .contenedor__galeria__fotos, .contenedor__quienesSomos, .contenedor__promocion__empezaHoy .contenedor__promocion__empezaHoy__boton, .contenedor__sectorProfesores, .contenedor__sectorDisciplinas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Pagina index */
+/* Header */
+.navbar__personalizada .navbar__toggler__icon__personalizado {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+.navbar__personalizada .nav-item {
+  font-size: 1.5rem;
+  margin-right: 35px;
+}
+.navbar__personalizada .dropdown-item {
+  font-size: 1.5rem;
+}
+
+.tira__submenues {
+  padding: 0 5px;
+}
+
+/* Main */
+.contenedor__sectorVideoBoton {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+.contenedor__sectorVideoBoton .contenedor__sectorVideoBoton__video {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.contenedor__sectorVideoBoton .contenedor__sectorVideoBoton__contacto {
+  font-size: 1.8rem;
+  padding: 2rem;
+  width: auto;
+  height: auto;
+  position: absolute;
+  margin-bottom: 6rem;
+}
+
+/* Configuración General */
+.contenedor__sectorDisciplinas .contenedor__cartillas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.contenedor__sectorDisciplinas .contenedor__cartillas .carta__disciplina {
+  width: 50rem;
+  height: auto;
+}
+.contenedor__sectorDisciplinas .contenedor__cartillas .carta__disciplina .imagen__disciplina {
+  height: 100%;
+  width: 100%;
+}
+
+/* Configuración General */
+.contenedor__sectorProfesores .contenedor__profesoresHorizontal .contenedor__sectorProfesores__cartillas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 35rem;
+}
+.contenedor__sectorProfesores .contenedor__profesoresHorizontal .contenedor__sectorProfesores__cartillas .cartilla__profesor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 30rem;
+  width: 25rem;
+  margin: 0px 3rem;
+}
+.contenedor__sectorProfesores .contenedor__profesoresHorizontal .contenedor__sectorProfesores__cartillas .cartilla__profesor .imagen__profesor {
+  width: 100%;
+  height: 100%;
+}
+
+/* Carrousel */
+.contenedor__carrousel {
+  width: 500px;
+  height: auto;
+  padding-top: 5px;
+  display: none;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-item {
+  width: 100%;
+  height: 480px;
+}
+
+.imagen__carrousel {
+  width: 400px;
+  height: 400px;
+}
+
+.carousel-caption {
+  width: 50%;
+  height: auto;
+  position: absolute;
+  margin: 0 auto;
+}
+
+.contenedor__promocion {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.contenedor__promocion .contenedor__cartaBeneficios {
+  width: 81.5%;
+}
+.contenedor__promocion .contenedor__cartaBeneficios .contenedor__cartaBeneficios__informacion__texto {
+  width: 70%;
+}
+
+/* Configuración General */
+.contenedor__promocion__empezaHoy {
+  display: flex;
+  width: 81.5%;
+}
+.contenedor__promocion__empezaHoy .contenedor__promocion__empezaHoy__boton {
+  flex-direction: row;
+}
+.contenedor__promocion__empezaHoy .contenedor__promocion__empezaHoy__boton .contenedor__boton__contacto {
+  font-size: 1.8rem;
+  padding: 20px;
+}
+
+.footer {
+  width: 100%;
+  margin-right: 0px;
+}
+
+.footer__contenedor__redesSociales {
+  display: flex;
+  justify-content: end;
+  padding-right: 3rem;
+}
+.footer__contenedor__redesSociales a {
+  margin: 0rem 3rem;
+}
+.footer__contenedor__redesSociales a img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Pagina Disciplinas */
+.contenedor__disciplinaDeporte {
+  height: 110rem;
+  padding: 0 2rem;
+}
+.contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__titulo {
+  margin: 5px;
+  border-bottom: 1px solid #fff;
+}
+.contenedor__disciplinaDeporte .contenedor__horarios {
+  border-radius: 10px;
+}
+.contenedor__disciplinaDeporte .contenedor__carrousel__deporte .carousel {
+  width: 500px;
+  height: 350px;
+}
+.contenedor__disciplinaDeporte .contenedor__carrousel__deporte .carousel .carousel-inner {
+  width: 500px;
+  height: 350px;
+}
+.contenedor__disciplinaDeporte .contenedor__carrousel__deporte .carousel .carousel-inner .carousel-item img {
+  width: 500px;
+  height: 350px;
+}
+
+.contenedor__inscripcion {
+  width: 70%;
+  margin: 15rem 0 0 0;
+  border-radius: 10px;
+}
+.contenedor__inscripcion h2 {
+  padding-bottom: 2rem;
+}
+.contenedor__inscripcion .input-group span {
+  font-size: 1.8rem;
+}
+.contenedor__inscripcion .input-group .placeHolder__personalizado {
+  font-size: 1.3rem;
+}
+.contenedor__inscripcion .boton__enviar__formulario {
+  width: auto;
+  font-size: 1.8rem;
+}
+
+/* Pagina Contacto */
+.contenedor__contacto .contenedor__contacto__titulo {
+  margin: 5px;
+  border-bottom: 1px solid #fff;
+}
+.contenedor__contacto .contenedor__mapa {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Pagina Quienes Somos */
+/* Configuración General */
+.contenedor__quienesSomos .contenedor__quienesSomos__informacion {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+
+/* Pagina Galería */
+/* Configuración General */
+.contenedor__galeria h1 {
+  border-bottom: 1px solid #fff;
+}
+.contenedor__galeria h2 {
+  border-bottom: 1px solid #fff;
+}
+.contenedor__galeria .contenedor__galeria__fotos .contenedor__galeria__informacion {
+  padding: 0 10rem;
+}
+.contenedor__galeria .contenedor__galeria__fotos .contenedor__galeria__informacion p {
+  padding: 0 20px 10px 20px;
+  border-radius: 10px;
+}
+.contenedor__galeria .contenedor__galeria__fotos .contenedor__carrousel__galeria {
+  width: 50%;
+}
+.contenedor__galeria .contenedor__galeria__videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.contenedor__galeria .contenedor__galeria__videos .contenedor__carrousel__galeria__videos {
+  width: 60%;
+}
+.contenedor__galeria .contenedor__galeria__videos .contenedor__carrousel__galeria__videos .carousel {
+  width: 100%;
+}
+.contenedor__galeria .contenedor__galeria__videos .contenedor__carrousel__galeria__videos .carousel .carousel-inner .carousel-item iframe {
+  width: 748px;
+  height: 480px;
+}
+
+/* Media Queries */
+/* Pantallas md */
+@media (max-width: 992px) {
+  /* Configuracion general */
+  h2 {
+    font-size: 2.2rem;
+    /* font-family: ; */
+  }
+  h3 {
+    font-size: 1.9rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  /* Logo y título y resto del Nav */
+  .navbar__brand__personalizada {
+    font-size: 2.5rem;
+  }
+  .navbar__brand__personalizada img {
+    width: 50px;
+    height: 50px;
+  }
+  .tira__submenues {
+    width: 20%;
+  }
+  /* Botón video contacto */
+  .contenedor__sectorVideoBoton .contenedor__sectorVideoBoton__contacto {
+    font-size: 1.2rem;
+    padding: 1rem;
+    width: auto;
+    height: auto;
+    position: absolute;
+    margin-bottom: 2rem;
+  }
+  /* Sección Disciplinas */
+  .contenedor__sectorDisciplinas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contenedor__sectorDisciplinas .contenedor__cartillas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+  }
+  .contenedor__sectorDisciplinas .contenedor__cartillas .carta__disciplina {
+    width: 35rem;
+    height: auto;
+  }
+  /* Sección Profesores */
+  /* Carrousel */
+  .contenedor__carrousel {
+    width: 380px;
+    height: 340px;
+    display: inline-block;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 340px;
+  }
+  .imagen__carrousel {
+    width: 300px;
+    height: 300px;
+  }
+  .carousel-caption {
+    width: 50%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    padding: 0;
+  }
+  /* Contenedor profesores horizontal */
+  .contenedor__sectorProfesores .contenedor__profesoresHorizontal {
+    display: none;
+  }
+  /* Sección Beneficios */
+  .contenedor__promocion {
+    height: auto;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+  .contenedor__promocion .contenedor__cartaBeneficios {
+    margin: 0 auto;
+    width: 100%;
+  }
+  /* Sección Empezá Hoy */
+  .contenedor__promocion__empezaHoy {
+    width: 100%;
+  }
+  .contenedor__promocion__empezaHoy .contenedor__promocion__empezaHoy__boton {
+    padding: auto;
+  }
+  .contenedor__promocion__empezaHoy .contenedor__promocion__empezaHoy__boton .contenedor__boton__contacto {
+    font-size: 1.2rem;
+  }
+  /* Footer */
+  .footer__contenedor__redesSociales a img {
+    width: 30px;
+    height: 30px;
+  }
+  /* PÁGINA DISCIPLINAS */
+  .contenedor__disciplinaDeporte {
+    height: 115rem;
+  }
+  .contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__informacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__informacion .contenedor__carrousel__deporte {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__informacion .contenedor__horarios {
+    width: 100%;
+  }
+  .contenedor__disciplinaDeporte .contenedor__inscripcion {
+    margin-top: 5rem;
+  }
+  .contenedor__disciplinaDeporte .contenedor__inscripcion .contenedor__boton__formulario {
+    display: flex;
+    justify-content: center;
+  }
+  .contenedor__disciplinaDeporte .boton__enviar__formulario {
+    width: auto;
+    font-size: 1.8rem;
+  }
+  /* PÁGINA CONTACTO */
+  .contenedor__contacto__informacion {
+    text-align: center;
+  }
+  .contenedor__inscripcion .contenedor__boton__formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contenedor__inscripcion .contenedor__boton__formulario .boton__enviar__formulario {
+    font-size: 1.8rem;
+  }
+  /* PÁGINA GALERÍA */
+  .contenedor__galeria .contenedor__galeria__fotos .contenedor__carrousel__galeria {
+    width: 70%;
+  }
+  .contenedor__galeria .contenedor__galeria__videos {
+    width: 80%;
+    height: auto;
+  }
+  .contenedor__galeria .contenedor__galeria__videos .carousel .carousel-inner {
+    width: 100%;
+    height: 100%;
+  }
+  .contenedor__galeria .contenedor__galeria__videos .carousel .carousel-inner .carousel-item iframe {
+    width: 120px;
+    width: 120px;
+  }
+}
+/* Pantallas sm */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  p {
+    font-size: 1.2rem;
+  }
+  /* Logo y título y resto del Nav */
+  .navbar__personalizada .dropdown-item {
+    font-size: 1.5rem;
+  }
+  .navbar__ul__personalizada .navbar__li__personalizada {
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+  .navbar__brand__personalizada {
+    font-size: 2rem;
+  }
+  .navbar__brand__personalizada img {
+    width: 40px;
+    height: 40px;
+  }
+  .tira__submenues {
+    width: 100%;
+    font-size: 300px;
+  }
+  /* Botón Video*/
+  .contenedor__sectorVideoBoton .contenedor__sectorVideoBoton__contacto {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  /* Contenedores Introduccion */
+  .contenedor__introduccion {
+    width: 100%;
+    padding: 0 20px;
+  }
+  /* Seccion Profesores */
+  .contenedor__carrousel {
+    width: 375px;
+    height: 250px;
+  }
+  .carousel-item {
+    width: 100%;
+    height: 250px;
+  }
+  .imagen__carrousel {
+    width: 200px;
+    height: 200px;
+  }
+  .carousel-caption {
+    width: 50%;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 0;
+    padding: 0;
+  }
+  /* Sección Beneficios */
+  .contenedor__promocion {
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 6rem;
+  }
+  .contenedor__promocion .contenedor__cartaBeneficios {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contenedor__promocion .contenedor__cartaBeneficios .contenedor__cartaBeneficios__informacion {
+    padding-bottom: 0;
+  }
+  .contenedor__promocion .contenedor__cartaBeneficios .contenedor__cartaBeneficios__informacion .contenedor__cartaBeneficios__informacion__texto {
+    width: 100%;
+  }
+  /* Sección Empezá Hoy*/
+  .contenedor__sectorEmpezaHoy .contenedor__promocion {
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .contenedor__sectorEmpezaHoy .contenedor__promocion .contenedor__promocion__empezaHoy__informacion {
+    width: 100%;
+  }
+  .contenedor__sectorEmpezaHoy .contenedor__promocion .contenedor__promocion__empezaHoy__informacion .contenedor__promocion__empezaHoy__informacion__texto {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .contenedor__sectorEmpezaHoy .contenedor__promocion .contenedor__promocion__empezaHoy__boton {
+    width: 100%;
+    height: 50px;
+    padding: 0;
+  }
+  .contenedor__sectorEmpezaHoy .contenedor__promocion .contenedor__promocion__empezaHoy__boton .contenedor__boton__contacto {
+    height: 100%;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+  }
+  /* Footer */
+  .navbar__brand__personalizada {
+    margin-left: 0;
+  }
+  .footer__contenedor__redesSociales {
+    padding-right: 0;
+  }
+  .footer__contenedor__redesSociales a {
+    margin: 0 1rem;
+  }
+  .footer__contenedor__redesSociales a img {
+    width: 20px;
+    height: 20px;
+  }
+  /* PAGINA DISCIPLINA */
+  .contenedor__disciplinaDeporte {
+    height: auto;
+  }
+  .contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__informacion .contenedor__carrousel__deporte .carousel {
+    width: 300px;
+    height: 200px;
+  }
+  .contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__informacion .contenedor__carrousel__deporte .carousel .carousel-inner {
+    width: 300px;
+    height: 200px;
+  }
+  .contenedor__disciplinaDeporte .contenedor__disciplinaDeporte__informacion .contenedor__carrousel__deporte .carousel .carousel-inner .carousel-item img {
+    width: 300px;
+    height: 200px;
+  }
+  .contenedor__disciplinaDeporte .contenedor__inscripcion .input-group span {
+    font-size: 1.2rem;
+  }
+  .contenedor__disciplinaDeporte .contenedor__inscripcion .input-group .placeHolder__personalizado {
+    font-size: 0.7rem;
+  }
+  .contenedor__disciplinaDeporte .contenedor__inscripcion .contenedor__boton__deportes button {
+    font-size: 1.2rem;
+  }
+  /* PÁGINA CONTACTO*/
+  .contenedor__mapa iframe {
+    max-width: 100%;
+    height: 300px;
+  }
+  .contenedor__inscripcion .input-group span {
+    font-size: 1.2rem;
+  }
+  .contenedor__inscripcion .input-group .placeHolder__personalizado {
+    font-size: 0.7rem;
+  }
+  .contenedor__inscripcion .contenedor__boton__formulario .boton__enviar__formulario {
+    font-size: 1.2rem;
+  }
+  /* PÁGINA GALERÍA */
+  .contenedor__galeria .contenedor__galeria__fotos .contenedor__carrousel__galeria {
+    width: 100%;
+  }
+  .contenedor__galeria .contenedor__galeria__fotos .contenedor__galeria__informacion {
+    width: 100%;
+    padding: 0 0;
+  }
+  .contenedor__galeria .contenedor__galeria__fotos .contenedor__galeria__informacion p {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

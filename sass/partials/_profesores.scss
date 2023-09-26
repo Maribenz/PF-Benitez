@@ -1,0 +1,51 @@
+@use './configGeneral';
+
+.contenedor__sectorProfesores {
+    @extend .contenedorAlineado;
+        .contenedor__profesoresHorizontal {
+            .contenedor__sectorProfesores__cartillas {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 35rem;
+                .cartilla__profesor {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    text-align: center;
+                    height: 30rem;
+                    width: 25rem;
+                    margin: 0px 3rem;
+                    .imagen__profesor {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+}
+/* Carrousel */
+.contenedor__carrousel {
+    width: 500px;
+    height: auto;
+    padding-top: 5px;
+    display: none;
+}
+.carousel-inner {
+    text-align: center;
+}
+.carousel-item {
+    width: 100%;
+    height: 480px;
+}
+.imagen__carrousel {
+    width: 400px;
+    height: 400px;
+}
+.carousel-caption {
+    width: 50%;
+    height: auto;
+    position: absolute;
+    margin: 0 auto;
+}

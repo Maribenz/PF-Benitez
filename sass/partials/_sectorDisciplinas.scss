@@ -1,0 +1,20 @@
+@use './variables';
+@use './configGeneral';
+
+.contenedor__sectorDisciplinas {
+    @extend .contenedorAlineado;
+        .contenedor__cartillas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+                .carta__disciplina {
+                    width: 50rem;
+                    height: auto;
+                        .imagen__disciplina {
+                            height: 100%;
+                            width: 100%;
+                        }
+                }
+        }
+}

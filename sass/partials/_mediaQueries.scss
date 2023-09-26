@@ -1,0 +1,381 @@
+@use './variables';
+
+/* Pantallas md */
+@media (max-width: variables.$lg) {
+    /* Configuracion general */
+    h2 {
+        font-size: variables.$tamanioDeFuenteH2Md;
+        /* font-family: ; */
+    }
+    h3 {
+        font-size: variables.$tamanioDeFuenteH3Md;
+    }
+    p {
+        font-size: variables.$tamanioDeFuentePMd;
+    }
+    /* Logo y título y resto del Nav */
+    .navbar__brand__personalizada {
+        font-size: variables.$tamanioDeFuenteTituloLogoMd;
+        img {
+            width: 50px;
+            height: 50px;
+        }
+    }
+    .tira__submenues {
+        width: 20%;
+    }
+    /* Botón video contacto */
+    .contenedor__sectorVideoBoton {
+        .contenedor__sectorVideoBoton__contacto {
+            font-size: variables.$tamanioDeFuenteBotonMd;
+            padding: 1rem;
+            width: auto;
+            height: auto;
+            position: absolute;
+            margin-bottom: 2rem;
+        }
+    }
+    /* Sección Disciplinas */
+    .contenedor__sectorDisciplinas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .contenedor__cartillas {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%;
+            text-align: center;
+            .carta__disciplina {
+                width: 35rem;
+                height: auto;
+            }
+        }
+    }
+    /* Sección Profesores */
+    /* Carrousel */
+    .contenedor__carrousel {
+        width: 380px;
+        height: 340px;
+        display: inline-block;
+    }
+    .carousel-item {
+        width: 100%;
+        height: 340px;
+    }
+    .imagen__carrousel {
+        width: 300px;
+        height: 300px;
+    }
+    .carousel-caption {
+        width: 50%;
+        position: absolute;
+        margin: 0 auto;
+        bottom: 0;
+        padding: 0;
+    }
+    /* Contenedor profesores horizontal */
+    .contenedor__sectorProfesores {
+        .contenedor__profesoresHorizontal {
+            display: none;
+        }
+    }
+    /* Sección Beneficios */
+    .contenedor__promocion {
+        height: auto;
+        width: 700px;
+        margin: 0 auto;
+        margin-top: 6rem;
+        .contenedor__cartaBeneficios {
+            margin: 0 auto;
+            width: 100%;
+        }
+    }
+    /* Sección Empezá Hoy */
+    .contenedor__promocion__empezaHoy {
+        width: 100%;
+        .contenedor__promocion__empezaHoy__boton {
+            padding: auto;
+            .contenedor__boton__contacto {
+                font-size: variables.$tamanioDeFuenteBotonMd;
+            }
+        }
+    }
+    /* Footer */
+    .footer__contenedor__redesSociales {
+        a {
+            img {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+
+    /* PÁGINA DISCIPLINAS */
+    .contenedor__disciplinaDeporte {
+        height: 115rem;
+            .contenedor__disciplinaDeporte__informacion {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                    .contenedor__carrousel__deporte {
+                        width: 100%;
+                        margin-bottom: 2rem;
+                    }
+                    .contenedor__horarios {
+                        width: 100%;
+                    }
+            }
+            .contenedor__inscripcion {
+                margin-top: 5rem;
+                    .contenedor__boton__formulario {
+                        display: flex;
+                        justify-content: center;
+                    }
+            }
+            .boton__enviar__formulario {
+                width: auto;
+                font-size: variables.$tamanioFuenteFormulario;
+            }
+    }
+    /* PÁGINA CONTACTO */
+    .contenedor__contacto__informacion {
+        text-align: center;
+    }
+    .contenedor__inscripcion {
+        .contenedor__boton__formulario {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                    .boton__enviar__formulario {
+                        font-size: variables.$tamanioFuenteFormulario;
+                    }
+        }
+    }
+    /* PÁGINA GALERÍA */
+    .contenedor__galeria {
+            .contenedor__galeria__fotos {
+                .contenedor__carrousel__galeria {
+                    width: 70%;
+                }
+        }
+    .contenedor__galeria__videos {
+            width: 80%;
+            height: auto;
+                .carousel {
+                    .carousel-inner {
+                        width: 100%;
+                        height: 100%;
+                        .carousel-item{
+                                iframe {
+                                    width: 120px;
+                                    width: 120px;
+                                }
+                        }
+                    }
+                }
+        }
+    }
+}
+
+/* Pantallas sm */
+@media (max-width: variables.$md) {
+    h2 {
+        font-size: variables.$tamanioDeFuenteH2Sm;
+    }
+    h3 {
+        font-size: variables.$tamanioDeFuenteH3Sm;
+    }
+    p {
+        font-size: variables.$tamanioDeFuentePSm;
+    }
+    /* Logo y título y resto del Nav */
+    .navbar__personalizada {
+        .dropdown-item {
+            font-size: variables.$tamanioDeFuenteNavSm;
+        }
+    }
+    .navbar__ul__personalizada {
+        .navbar__li__personalizada {
+            margin: 0 auto;
+            font-size: variables.$tamanioDeFuenteNavSm;
+        }
+    }
+    .navbar__brand__personalizada {
+        font-size: variables.$tamanioDeFuenteTituloLogoSm;
+        img {
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .tira__submenues {
+        width: 100%;
+        font-size: 300px;
+    }
+    /* Botón Video*/
+    .contenedor__sectorVideoBoton {
+        .contenedor__sectorVideoBoton__contacto {
+            font-size: variables.$tamanioDeFuenteBotonSm;
+            padding: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+    }
+    /* Contenedores Introduccion */
+    .contenedor__introduccion {
+        width: 100%;
+        padding: 0 20px;
+    }
+    /* Seccion Profesores */
+    .contenedor__carrousel {
+        width: 375px;
+        height: 250px;
+    }
+    .carousel-item {
+        width: 100%;
+        height: 250px;
+    }
+    .imagen__carrousel {
+        width: 200px;
+        height: 200px;
+    }
+    .carousel-caption {
+        width: 50%;
+        position: absolute;
+        margin: 0 auto;
+        bottom: 0;
+        padding: 0;
+    }
+    /* Sección Beneficios */
+    .contenedor__promocion {
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 6rem;
+        .contenedor__cartaBeneficios {
+            margin: 0 auto;
+            width: 100%;
+            .contenedor__cartaBeneficios__informacion {
+                padding-bottom: 0;
+                .contenedor__cartaBeneficios__informacion__texto {
+                    width: 100%;
+                }
+            }
+        }
+    }
+    /* Sección Empezá Hoy*/
+    .contenedor__sectorEmpezaHoy {
+        .contenedor__promocion {
+            flex-direction: column;
+            margin-top: 0;
+            .contenedor__promocion__empezaHoy__informacion {
+                width: 100%;
+                .contenedor__promocion__empezaHoy__informacion__texto {
+                    padding-bottom: 5px;
+                    border-bottom: 1px solid #fff;
+                    margin-bottom: 20px;
+                    width: 100%;
+                }
+            }
+            .contenedor__promocion__empezaHoy__boton {
+                width: 100%;
+                height: 50px;
+                padding: 0;
+                    .contenedor__boton__contacto {
+                        height: 100%;
+                        padding: 0 10px;
+                        display: flex;
+                        align-items: center;
+                    }
+            }
+        }
+    }
+    /* Footer */
+    .navbar__brand__personalizada {
+        margin-left: 0;
+    }
+    .footer__contenedor__redesSociales {
+        padding-right: 0;
+        a {
+            margin: 0 1rem;
+            img {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    /* PAGINA DISCIPLINA */
+    .contenedor__disciplinaDeporte {
+        height: auto;
+        .contenedor__disciplinaDeporte__informacion {
+                .contenedor__carrousel__deporte {
+                        .carousel {
+                            width: 300px;
+                            height: 200px;
+                                .carousel-inner {
+                                    width: 300px;
+                                    height: 200px;
+                                    .carousel-item {
+                                        img {
+                                            width: 300px;
+                                            height: 200px;
+                                        }
+                                    }
+                                }
+                        }
+                }
+        }
+        .contenedor__inscripcion {
+            .input-group {
+                span {
+                    font-size: variables.$tamanioFuenteFormularioSm;
+                }
+                .placeHolder__personalizado {
+                    font-size: variables.$tamanioFuenteFormularioPlaceHolderSm;
+                }
+            }
+            .contenedor__boton__deportes {
+                    button {
+                        font-size: variables.$tamanioFuenteFormularioSm;
+                    }
+            }
+        }
+    }
+    /* PÁGINA CONTACTO*/
+    .contenedor__mapa {
+        iframe {
+            max-width: 100%;
+            height: 300px;
+        }
+    }
+    .contenedor__inscripcion {
+        .input-group {
+            span {
+                font-size: variables.$tamanioFuenteFormularioSm;
+            }
+            .placeHolder__personalizado {
+                font-size: variables.$tamanioFuenteFormularioPlaceHolderSm;
+            }
+        }
+        .contenedor__boton__formulario {
+                    .boton__enviar__formulario {
+                        font-size: variables.$tamanioFuenteFormularioSm;
+                    }
+        }
+    }
+    /* PÁGINA GALERÍA */ 
+    .contenedor__galeria {
+            .contenedor__galeria__fotos {
+                .contenedor__carrousel__galeria {
+                    width: 100%;
+                }
+                
+            .contenedor__galeria__informacion {
+                width: 100%;
+                padding: 0 0;
+                p {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+/* Configuración General */
+
+@use 'partials/configGeneral';
+
+/* Pagina index */
+@use 'partials/index';
+/* Pagina Disciplinas */
+@use 'partials/disciplinaPagina';
+/* Pagina Contacto */
+@use 'partials/contactoPagina';
+/* Pagina Quienes Somos */
+@use 'partials/quienesSomosPagina';
+/* Pagina Galería */
+@use 'partials/galeriaPagina';
+
+/* Media Queries */
+@use 'partials/mediaQueries';
