@@ -160,20 +160,9 @@
                     width: 70%;
                 }
         }
-    .contenedor__galeria__videos {
-            width: 80%;
-            height: auto;
-                .carousel {
-                    .carousel-inner {
-                        width: 100%;
-                        height: 100%;
-                        .carousel-item{
-                                iframe {
-                                    width: 120px;
-                                    width: 120px;
-                                }
-                        }
-                    }
+        .contenedor__galeria__videos {
+                .contenedor__carrousel__galeria__videos {
+                    width: 70%;
                 }
         }
     }
@@ -366,16 +355,21 @@
     .contenedor__galeria {
             .contenedor__galeria__fotos {
                 .contenedor__carrousel__galeria {
-                    width: 100%;
+                    width: 90%;
                 }
-                
             .contenedor__galeria__informacion {
                 width: 100%;
-                padding: 0 0;
+                padding: 0 5px;
                 p {
                     width: 100%;
+                    padding: 5px;
                 }
             }
+        }
+        .contenedor__galeria__videos {
+                .contenedor__carrousel__galeria__videos {
+                    width: 90%;
+                }
         }
     }
 }
